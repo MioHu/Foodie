@@ -58,8 +58,8 @@ function App() {
             <a className="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i className="fab fa-twitter"></i></a>
             <a className="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i className="fab fa-google"></i></a>
             <a className="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i className="fab fa-instagram"></i></a>
-            <a className="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i className="fab fa-linkedin-in"></i></a>
-            <a className="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button"><i className="fab fa-github"></i></a>
+            <a className="btn btn-outline-light btn-floating m-1 rounded-circle" href="https://www.linkedin.com/in/jingwen-hu-097648232/" role="button"><i className="fab fa-linkedin-in"></i></a>
+            <a className="btn btn-outline-light btn-floating m-1 rounded-circle" href="https://github.com/MioHu" role="button"><i className="fab fa-github"></i></a>
           </section>
         </div>
 

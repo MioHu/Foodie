@@ -73,15 +73,17 @@
 /* 2.category */
 .category {
     background-color: #FCF9F5;
-    height: 250px;
-    margin-top: 100px;
+    height: auto;
+    margin-top: 15vh;
     display: flex;
     justify-content: space-evenly;
-    padding: 35px 150px;
+    padding: 5vh 10vw;
+    flex-wrap: wrap;
 }
 .cat {
     width: 150px;
     position: relative;
+    margin-bottom: 1vh;
 }
 .cat a {
     text-decoration: none;
@@ -102,17 +104,11 @@
 }
 .cat a:hover {
     color: #61CE70;
-} 
-
+}
 
 /* 3.popular */
-.popRow {
-    height: 470px;
-    padding: 40px 150px;
-}
 .popItem {
     width: 250px;
-    height: 250px;
     margin: 0 20px;
     position: relative;
     overflow: hidden;
@@ -140,13 +136,7 @@
 }
 
 
-/* random */
-.random {
-    background-image: linear-gradient(to bottom, #fafafa, white);
-    height: 525px;
-    padding: 30px 200px;
-    margin-bottom: 45px;
-}
+/* 4.random */
 .randomItem {
     background-color: black;
     overflow: hidden;
@@ -156,7 +146,6 @@
     text-decoration: none;
     color: white !important;
     position: relative;
-    font-size: 2rem;
 }
 .randomItem img {
     width: 100%;
@@ -171,4 +160,57 @@
 }
 .randomItem:hover img {
     transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 768px) {
+    .indicators {
+        width: 90vw !important;
+    }
+    .popRow {
+        height: 50vh;
+        padding: 8vh 10vw;
+    }
+    .random {
+        background-image: linear-gradient(to bottom, #fafafa, white);
+        height: 45vh;
+        padding: 5vh 10vw;
+    }
+    .randomItem h1{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .indicators {
+        width: 90vw !important;
+    }
+    .popRow {
+        height: 60vh;
+        padding: 8vh 10vw;
+    }
+    .random {
+        background-image: linear-gradient(to bottom, #fafafa, white);
+        height: 60vh;
+        padding: 5vh 10vw;
+    }
+    .randomItem h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .indicators {
+        width: 55vw !important;
+    }
+    .popRow {
+        height: 80vh;
+        padding: 10vh 20vw;
+    }
+    .random {
+        background-image: linear-gradient(to bottom, #fafafa, white);
+        height: 80vh;
+        padding: 10vh 15vw;
+    }
+    .randomItem h1{
+        font-size: 2rem;
+    }
 }

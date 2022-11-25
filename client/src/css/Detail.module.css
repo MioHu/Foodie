@@ -1,9 +1,30 @@
-.detailContainer {
-    margin: 45px 200px;
-    background-color: #fcf9f5;
-    border: 1px solid #f8eee0;
-    border-radius: 5px;
-    padding: 60px 150px;
+
+@media screen and (max-width: 768px) {
+    .detailContainer {
+        margin: 4% 5%;
+        background-color: #fcf9f5;
+        border: 1px solid #f8eee0;
+        border-radius: 5px;
+        padding: 5% 10%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .detailContainer {
+        margin: 4% 8%;
+        background-color: #fcf9f5;
+        border: 1px solid #f8eee0;
+        border-radius: 5px;
+        padding: 5% 10%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .detailContainer {
+        margin: 4% 13%;
+        background-color: #fcf9f5;
+        border: 1px solid #f8eee0;
+        border-radius: 5px;
+        padding: 5% 10%;
+    }
 }
 
 /* 1.header */
