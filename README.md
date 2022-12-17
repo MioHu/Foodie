@@ -11,5 +11,18 @@ Foodie is a responive recipe website built with MERN stack and deployed to Amazo
 * Deployed on: Amazon EC2
 
 ## Features
+* Display recipe's name, image, category, cuisine, tags, YouTube video, ingredients, instructions
+* Search recipes by keyword, category, cuisine, ingredient
+* Fetch a random recipe
+* Leave comments
 
 ## Screenshots
+### Home page
+
+### Single recipe page
+
+## To Do
+- [ ] User register and login
+- [ ] Like/save/rate recipe
+- [ ] Submit user's own recipe
+- [ ] Tack page view
