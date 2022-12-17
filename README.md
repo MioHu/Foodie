@@ -26,6 +26,9 @@ Foodie is a responive recipe website built with MERN stack and deployed to Amazo
 * Search
 
 ![search](/screenshots/search.gif)
+* Comment
+
+![comment](/screenshots/comment.gif)
 
 ## To Do
 - [ ] User register and login
